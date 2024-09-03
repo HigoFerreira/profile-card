@@ -1,0 +1,6 @@
+:root {
+  --bg-card-profile: hsl(180, 100%, 99%);
+  --bg-color: hsl(185, 75%, 39%);
+  --text-color: hsl(227, 10%, 46%);
+  --line-height: hsla(300, 1%, 85%, 0.79);
+}
