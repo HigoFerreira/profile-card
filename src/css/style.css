@@ -1,103 +1,92 @@
-
 body {
-    background-color: var(--bg-color);
-    font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--bg-color);
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.card-profile{
-    background-color: var(--bg-card-profile);
-    width: 350px;
-    height: 345px;
-    border-radius: 10px;
+.card-profile {
+  background-color: var(--bg-card-profile);
+  width: 350px;
+  height: 345px;
+  border-radius: 10px;
 }
 
-.frame-card{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40%;
-    
+.frame-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
 }
 
 .img-profile {
-    max-width: 30%;
-    border-radius: 50%;
+  max-width: 30%;
+  border-radius: 50%;
 }
 
-.descripition{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.descripition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-
-.title-user{
-    display: flex;
-    font-weight: 600;
-    font-size: 19px;
+.title-user {
+  display: flex;
+  font-weight: 600;
+  font-size: 19px;
 }
 
-.title-age{
-    display: flex;
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: 18px;
-    padding: 5px;
-    
+.title-age {
+  display: flex;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px;
 }
 
-.location{
-    border-bottom: 3px solid var(--line-height);
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+.location {
+  border-bottom: 3px solid var(--line-height);
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nationality {
-    color: var(--text-color);
-    padding-top: 30px;
-    font-weight: 700;
-
+  color: var(--text-color);
+  padding-top: 30px;
+  font-weight: 700;
 }
 
-.graphic{
-    justify-content: space-evenly;
-    display: flex;
-    padding-top: 25px;
-    
+.graphic {
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 25px;
 }
 
 .item {
-    list-style-type: none;
-    width: 15%;
+  list-style-type: none;
+  width: 15%;
 }
 
-.numbers{
-    font-weight: 700;
+.numbers {
+  font-weight: 700;
 }
 
-.infos{
-    color: var(--text-color);
-    font-weight: 400;
+.infos {
+  color: var(--text-color);
+  font-weight: 400;
 }
 
 li {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
-
-
